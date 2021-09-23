@@ -1,0 +1,4 @@
+.home{
+    /* Other pages are 4 times the side bar*/
+    flex:4;
+}

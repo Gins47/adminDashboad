@@ -8,4 +8,12 @@ yarn add @material-ui/icons  @material-ui/core recharts
 
 ```
 
-time: 32.38
+**Material icons**
+
+https://mui.com/components/material-icons/
+
+**Box shadow**
+https://cssgenerator.org/box-shadow-css-generator.html
+
+**Time**
+time: 44:00

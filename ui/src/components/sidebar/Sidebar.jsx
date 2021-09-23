@@ -10,13 +10,13 @@ function Sidebar() {
                <div className="sidebarMenu">
                    <h3 className="sidebarTitle">DashBoard</h3>
                    <ul className="sidebarList">
-                       <li className="sidebarItem">
-                            <LineStyle  className="sidebarIcon"/> Home
+                       <li className="sidebarListItem active">
+                            <LineStyle  className="sidebarIcon "/> Home
                        </li>
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <Timeline  className="sidebarIcon"/> Analytics
                        </li>
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <TrendingUp className="sidebarIcon" /> Sales
                        </li>
                    </ul>
@@ -24,30 +24,30 @@ function Sidebar() {
                <div className="sidebarMenu">
                    <h3 className="sidebarTitle">Quick Menu</h3>
                    <ul className="sidebarList">
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <Group  className="sidebarIcon"/> Users
                        </li>
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <Storefront  className="sidebarIcon"/> Products
                        </li>
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <AttachMoney className="sidebarIcon" /> Transactions
                        </li>
-                       <li className="sidebarItem">
-                            <BarChart className="sidebarIcon" /> Transactions
+                       <li className="sidebarListItem">
+                            <BarChart className="sidebarIcon" /> Reports
                        </li>
                    </ul>
                </div>
                <div className="sidebarMenu">
                    <h3 className="sidebarTitle">Notifications</h3>
                    <ul className="sidebarList">
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <Email  className="sidebarIcon"/> mail
                        </li>
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <DynamicFeed  className="sidebarIcon"/> Feedback
                        </li>
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <Message className="sidebarIcon" /> Messages
                        </li>
                      
@@ -56,13 +56,13 @@ function Sidebar() {
                <div className="sidebarMenu">
                    <h3 className="sidebarTitle">Staff</h3>
                    <ul className="sidebarList">
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <Work  className="sidebarIcon"/> Manage
                        </li>
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <Timeline  className="sidebarIcon"/> Analytics
                        </li>
-                       <li className="sidebarItem">
+                       <li className="sidebarListItem">
                             <Report className="sidebarIcon" /> Reports
                        </li>
                      

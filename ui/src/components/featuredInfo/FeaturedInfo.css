@@ -1,0 +1,54 @@
+.featuredInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.featuredItem{
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 1px 0px 13px 5px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 1px 0px 13px 5px rgba(0,0,0,0.28);
+    -moz-box-shadow: 1px 0px 13px 5px rgba(0,0,0,0.28);
+}
+
+.featuredItemTitle{
+    font-size: 20px;
+}
+
+.featuredItemData{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.featuredItemValue{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.featuredItemRate{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+
+}
+
+.featuredItemDescription{
+    color: gray;
+    font-size: 15px;
+}
+
+.featuredIcon{
+    color: green;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.featuredIcon.negative{
+    color: red;
+}
