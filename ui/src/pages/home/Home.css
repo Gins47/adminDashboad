@@ -2,3 +2,9 @@
     /* Other pages are 4 times the side bar*/
     flex:4;
 }
+
+.widgets{
+    display: flex;
+    margin-top: 5px;
+    padding: 20px;
+}
