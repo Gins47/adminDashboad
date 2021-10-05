@@ -1,0 +1,35 @@
+.User{
+    flex: 4;
+}
+
+.UserListUser{
+    display: flex;
+    align-items: center;
+}
+.UserAvatar{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.UserAction{
+    display: flex;
+    align-items: center;
+}
+.DeleteBtm{
+    height: 20px;
+    color: red;
+    cursor: pointer;
+}
+.EditBtn{
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color: rgb(80, 161, 80);
+    cursor: pointer;
+    color: white;
+
+}
